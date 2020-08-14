@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/index.css">
     <script type="text/javascript" src='/scripts/sea.js'></script>
     <script>
-        (function () {
+        (function() {
             var version, script;
             seajs.config({
                 base: "/scripts",
@@ -22,14 +22,17 @@
 <body>
     <div class="main">
         <div class="music">
-            <img src="/img/top.jpg" alt="">
+            <a href="javascript:void(0);" class="u-globalAudio scene-lef-up">
+                <i class="icon-music">
+                    <img src="/img/music.png" width="28" /></i><audio src='/assert/backgroundmusic.mp3' autoplay="autoplay" loop="loop"></audio>
+            </a>
         </div>
         <div class="shopimg"></div>
         <div class="header" id="timer"></div>
         <div class="content">
             <div class="product">
                 <div class="product-left">
-                    <img src="/img/top.jpg" alt="" srcset="">
+                    <img src="/img/top (2).jpg" alt="" srcset="">
                 </div>
                 <div class="product-right">
                     <div class="product-name">笔记本</div>
@@ -67,7 +70,7 @@
                             <div class="yj">￥100</div>
                         </div>
                         <div class="product-price-right">
-                            <a href="#">查看详情</a>
+                            <a href="detail.html">查看详情</a>
                         </div>
                     </div>
                 </div>
