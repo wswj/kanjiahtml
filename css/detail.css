@@ -19,7 +19,7 @@ body {
 
 .top {
     width: 100%;
-    height: 300px;
+    height: 250px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px #888888;
 }
@@ -32,4 +32,27 @@ body {
 .top .top-content img {
     width: 100%;
     height: 100%;
+}
+
+.djs {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 2px 2px 3px #888888;
+    margin-top: 10px;
+}
+
+.djs #day,
+#hour,
+#minute,
+#second {
+    background-color: rgb(254, 0, 6);
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
 }
