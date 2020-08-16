@@ -30,14 +30,14 @@ window.onload = function() {
         minute.innerText = addzero(m);
         second.innerText = addzero(s);
     }, 1000);
-    // var touxiang = document.getElementById("touxiang");
-    // var txhtml = "";
-    // var list = ["/img/tx1.jpg", "/img/tx2.jpg"];
-    // for (var i = 0; i < list.length; i++) {
-    //     txhtml += '<img src=' + list[i] + ' style="z-index: ' + (list.length - i) + '; transform:translateX(' + i * 10 + 'px)">';
-    // }
-    // alert(txhtml);
-    // touxiang.innerHTML = txhtml;
+    var touxiang = document.getElementById("tx");
+    var txhtml = "";
+    var list = ["/img/tx1.jpg", "/img/tx2.jpg"];
+    for (var i = 0; i < list.length; i++) {
+        txhtml += '<img src=' + list[i] + ' />';
+    }
+    //alert(txhtml);
+    touxiang.innerHTML = txhtml;
 }
 
 function addzero(time) {
