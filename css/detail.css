@@ -182,6 +182,7 @@ body {
     justify-content: center;
     margin-top: 10px;
     padding: 10px;
+    box-shadow: 2px 2px 3px #888888;
 }
 
 .spjs .header {
@@ -203,6 +204,51 @@ body {
 .spjs .content img {
     width: 100%;
     margin: 0px;
+}
+
+.ph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 3px #888888;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.ph .ph-top {
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bolder;
+}
+
+.ph .ph-content {
+    padding: 10px;
+    flex-direction: column;
+}
+
+.ph .ph-content .content-top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ph .ph-content .content-top .content-top-left {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.ph .ph-content .content-top .content-top-left .content-top-left-item {
+    margin-right: 20px;
+}
+
+.ph .ph-content .content-top .content-top-right {
+    text-align: right;
+    color: salmon;
+    width: 20%;
 }
 
 .footer {
